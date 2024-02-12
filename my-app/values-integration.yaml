@@ -1,0 +1,9 @@
+---
+replicaCount: 1
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  tag: ""
+service:
+  nodePort: 31111
