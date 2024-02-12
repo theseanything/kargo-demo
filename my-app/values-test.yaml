@@ -6,4 +6,4 @@ image:
   pullPolicy: IfNotPresent
   tag: ""
 service:
-  nodePort: 31111
+  nodePort: 31116
