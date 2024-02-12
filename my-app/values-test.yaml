@@ -8,4 +8,4 @@ image:
   pullPolicy: IfNotPresent
   tag: 1.25.3
 service:
-  nodePort: 31116
+  nodePort: 30081
