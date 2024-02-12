@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:{{ .Values.image.tag }}
+          image: "nginx:{{ .Values.image.tag }}"
           volumeMounts:
             - name: content
               mountPath: /usr/share/nginx/html
